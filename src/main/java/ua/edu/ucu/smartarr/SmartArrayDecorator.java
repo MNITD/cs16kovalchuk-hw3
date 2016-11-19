@@ -1,4 +1,4 @@
-package ua.edu.ucu.smartarr;
+package main.java.ua.edu.ucu.smartarr;
 
 abstract class SmartArrayDecorator implements SmartArray {
 

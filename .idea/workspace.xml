@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c677a08f-e01b-4af7-be0b-11f0ecdb85dd" name="Default" comment="" />
+    <list default="true" id="c677a08f-e01b-4af7-be0b-11f0ecdb85dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs16kovalchuk-hw3.iml" afterPath="$PROJECT_DIR$/cs16kovalchuk-hw3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/SmartArrayApp.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/SmartArrayApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/Student.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyComparator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyFunction.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyPredicate.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyPredicate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/BaseArray.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/BaseArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/DistinctDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/DistinctDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/FilterDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/FilterDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/MapDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/MapDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArray.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArrayDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArrayDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SortDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SortDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/SmartArrayAppTest.java" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/SmartArrayAppTest.java" />
+    </list>
     <ignored path="cs16kovalchuk-hw3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,12 +37,34 @@
   <component name="FavoritesManager">
     <favorites_list name="cs16kovalchuk-hw3" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/BaseArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/DistinctDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/FilterDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/MapDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArrayDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SortDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyPredicate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/SmartArrayApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/edu/ucu/SmartArrayAppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/ucu/Student.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -75,6 +114,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cs16kovalchuk-hw3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs16kovalchuk-hw3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs16kovalchuk-hw3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,5 +277,115 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SortDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArrayDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/SmartArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/MapDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/FilterDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/DistinctDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/smartarr/BaseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/functions/MyComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/SmartArrayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/ucu/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/edu/ucu/SmartArrayAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

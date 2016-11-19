@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ua.edu.ucu.functions;
+package main.java.ua.edu.ucu.functions;
 
 /**
  *

@@ -1,5 +1,7 @@
-package ua.edu.ucu;
+package test.java.ua.edu.ucu;
 
+import main.java.ua.edu.ucu.SmartArrayApp;
+import main.java.ua.edu.ucu.Student;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
