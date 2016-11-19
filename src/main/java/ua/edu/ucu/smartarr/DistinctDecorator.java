@@ -10,7 +10,7 @@ public class DistinctDecorator extends SmartArrayDecorator{
     private Object[] deleteEqual(Object[] objs){
         int counter = 0;
         for(int i = 0; i < objs.length; i++){
-            for(int j = 0; j < objs.length; j++){
+            for(int j = i+1; j < objs.length; j++){
                 if(objs[i] == null){
                     break;
                 }

@@ -35,4 +35,5 @@ public class SortDecorator extends  SmartArrayDecorator{
     public int size() {
         return super.smartArray.size();
     }
+
 }

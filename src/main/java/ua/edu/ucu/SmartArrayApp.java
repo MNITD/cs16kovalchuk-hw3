@@ -1,6 +1,8 @@
 package main.java.ua.edu.ucu;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+
 import main.java.ua.edu.ucu.functions.MyComparator;
 import main.java.ua.edu.ucu.functions.MyFunction;
 import main.java.ua.edu.ucu.functions.MyPredicate;
@@ -52,9 +54,49 @@ public class SmartArrayApp {
     public static String[]
             findDistinctStudentNamesFrom2ndYearWithGPAgt4AndOrderedBySurname(Student[] students) {
 
+        MyPredicate pr = new MyPredicate() {
+            @Override
+            public boolean test(Object t) {
+                return ( ((Student) t).getGPA() >= 4.0 ) && ( ((Student) t).getYear() == 2 );
+            }
+        };
+
+        MyComparator cmp = new MyComparator() {
+            @Override
+            public int compare(Object o1, Object o2) {
+                int len;
+                if ( ((Student) o1).getSurname().length() < ((Student) o2).getSurname().length()){
+                    len = ((Student) o1).getSurname().length();
+                }
+                else{
+                    len = ((Student) o2).getSurname().length();
+                }
+
+                for(int i = 0; i < len; i++){
+                    if(((Student) o1).getSurname().toCharArray()[i] != ((Student) o2).getSurname().toCharArray()[i]){
+                        return  ((Student) o1).getSurname().toCharArray()[i] - ((Student) o2).getSurname().toCharArray()[i];
+                    }
+                }
+                if ( ((Student) o1).getSurname().length() > ((Student) o2).getSurname().length()){
+                    return 1;
+                }
+                return  -1;
+            }
+        };
+
+        // Input: [-1, 2, 0, 1, -5, 3]
+        SmartArray sa = new BaseArray(students);
+
+        Object[] objects;
+        sa = new DistinctDecorator(sa);
+        objects = sa.toArray();
+        sa = new FilterDecorator(sa, pr);
+        objects = sa.toArray();
+        sa = new SortDecorator(sa, cmp);
+        objects = sa.toArray();
+
         // Hint: to convert Object[] to String[] - use the following code
-        //Object[] result = studentSmartArray.toArray();
-        //return Arrays.copyOf(result, result.length, String[].class);
-        return null;
+        Object[] result = sa.toArray();
+        return Student.getNameList(Arrays.copyOf(result, result.length, Student[].class));
     }
 }

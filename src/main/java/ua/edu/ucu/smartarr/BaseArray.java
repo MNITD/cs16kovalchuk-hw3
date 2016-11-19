@@ -5,22 +5,22 @@ public class BaseArray implements SmartArray{
 
     private Object [] data;
 
-    public BaseArray(Integer [] integers) {
+    public BaseArray(Object [] integers) {
         this.data = integers;
     }
 
     @Override
     public Object[] toArray() {
-        return new Object[0];
+        return data;
     }
 
     @Override
     public String operationDescription() {
-        return null;
+        return "BaseArray";
     }
 
     @Override
     public int size() {
-        return 0;
+        return data.length;
     }
 }
